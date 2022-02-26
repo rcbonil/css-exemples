@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+} 
+ 
+ body {
+     margin: 0 200px;
+     padding: 20px;
+
+     font-family: Helvetica, Arial, sans-serif;
+     font-size: 16px;
+
+
+ }
+
+ .scroll-to-top {
+     color: white;
+     background-color: black;
+     padding: 1rem;
+
+     position: fixed;
+
+     /* left: 0;
+     bottom: 0; */
+
+     inset: auto auto 1rem 1rem;
+ }
