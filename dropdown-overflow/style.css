@@ -1,0 +1,33 @@
+body {
+    background-color: red;
+}
+
+.exemple-dropdown {
+    background-color: white;
+    width: 60px;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    overflow: auto;
+}
+
+ul:hover {
+    overflow: visible;
+    position: relative;
+    background-color: yellow;
+}
+
+.children {
+    position: static;
+    cursor: pointer;
+}
+
+.children .dropdown {
+    position: absolute;
+    display: none;
+}
+
+.children:hover .dropdown {
+    display: block;
+    background-color: blue;
+}
