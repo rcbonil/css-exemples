@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+}
+
+.grid-wrapper {
+    text-align: center;
+    margin: 20px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-template-row {
+    grid-template-rows: 100px 50px 100px 50px;
+}
+
+.grid-template-column {
+    grid-template-columns: 90px 50px 120px;
+}
+
+.grid-template-column-fr {
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.grid-inline {
+    display: inline-grid;
+}
+
+.grid-wrapper div {
+    background-color: coral;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.grid-template-column-minmax {
+    grid-template-rows: minmax(100px, auto);
+    grid-template-columns: minmax(auto, 50%) 1fr 3em;
+}
+
+.grid-template-repite {
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 100px);
+}
+
+.grid-template-repite-colone {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 30px repeat(3, 1fr) 50px
+}
