@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOTÓN con NEUMORFISMO </title>
+    <style>
+        body {
+            background-color: #eee;
+            padding: 100px;
+        }
+        
+        button {
+            background-color: transparent;
+            font-weight: semibold;
+            color: #444;
+            font-size: 1rem;
+            padding: 1rem 1.5rem;
+            /* padding para que respire nuestro boton */
+            margin: 2rem;
+            border: 2px solid #eee;
+            /* el borde nos ayudará con el efecto */
+            border-radius: .5rem;
+            cursor: pointer;
+            transition: all 1s ease;
+            /* todas las transiciones durarán un segundo */
+            box-shadow: .5em .5rem 1rem #ccc, -.5em -.5rem 1rem #fff;
+            /* eje x, eje y, blur radios, color */
+        }
+        
+        button:hover {
+            box-shadow: .5em .5rem 1rem #fff, -.5em -.5rem 1rem #ccc;
+        }
+        
+        button:active {
+            box-shadow: inset .2rem .2rem 1rem #fff, inset -.2rem -.2rem 1rem #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <a href="https://www.youtube.com/watch?v=LSo_veMQZ14" target="_blank">Aquí el video del tutorial</a>
+    </p>
+
+    <button>Click aquí</button>
+
+    <button>Click aquí</button>
+
+</body>
+
+</html>
